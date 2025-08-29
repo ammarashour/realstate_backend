@@ -1,24 +1,10 @@
-# Laravel Specific
-/vendor
-/public/storage
-/storage/*.key
-/storage/oauth-private.key
-/storage/oauth-public.key
-/storage/framework
-/storage/logs
-storage/debugbar
-/bootstrap/cache
-/.env
-/.env.*.local
-.env.backup
-Homestead.yaml
-Homestead.json
-vagrantfile
-/public/css/custom_color_*.css
-/public/document
-/lang
-/Modules/Template/*
-!/Modules/Template/index.html
+# Ignore secrets# Laravel Specific
+storage/firebase/*.json/vendor /public/storage /storage/*.key 
+/storage/oauth-private.key /storage/oauth-public.key /storage/framework 
+/storage/logs storage/debugbar /bootstrap/cache /.env /.env.*.local .env.backup 
+Homestead.yaml Homestead.json vagrantfile /public/css/custom_color_*.css 
+/public/document /lang /Modules/Template/* !/Modules/Template/index.html 
+Modules/Payment/Database/Seeders/CoreKeyPaymentRelationTableSeeder.php
 
 # Vue Specific
 /node_modules
