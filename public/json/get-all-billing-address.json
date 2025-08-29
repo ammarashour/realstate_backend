@@ -1,0 +1,44 @@
+[
+    {
+        "id" : "1",
+        "billing_first_name" : "Test",
+        "billing_last_name" : "Buyer",
+        "billing_email" : "test@gmail.com",
+        "billing_phone_no" : "09-11111111",
+        "billing_address" : "Yangon",
+        "billing_country" : "Myanmar",
+        "billing_state" : "Yangon",
+        "billing_city" : "Yangon",
+        "billing_postal_code" : "123456",
+        "is_save_shipping_info_for_next_time" : "1",
+        "is_save_billing_info_for_next_time" : "0"
+    },
+    {
+        "id" : "2",
+        "billing_first_name" : "Guy",
+        "billing_last_name" : "Hawkins",
+        "billing_email" : "guyhawkins@gmail.com",
+        "billing_phone_no" : "09-222222222",
+        "billing_address" : "Bago",
+        "billing_country" : "Myanmar",
+        "billing_state" : "Bago",
+        "billing_city" : "Bago",
+        "billing_postal_code" : "456789",
+        "is_save_shipping_info_for_next_time" : "0",
+        "is_save_billing_info_for_next_time" : "1"
+    },
+    {
+        "id" : "3",
+        "billing_first_name" : "kyaw",
+        "billing_last_name" : "kyaw",
+        "billing_email" : "kyawkyaw@gmail.com",
+        "billing_phone_no" : "09-333333333",
+        "billing_address" : "Mandalay",
+        "billing_country" : "Myanmar",
+        "billing_state" : "Mandalay",
+        "billing_city" : "Mandalay",
+        "billing_postal_code" : "456789",
+        "is_save_shipping_info_for_next_time" : "0",
+        "is_save_billing_info_for_next_time" : "1"
+    }
+]

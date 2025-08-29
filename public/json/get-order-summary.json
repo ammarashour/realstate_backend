@@ -1,0 +1,40 @@
+{
+    "order_summary": {
+        "order_code": "12345",
+        "shipping_first_name": "Guy",
+        "shipping_last_name": "Rockins",
+        "shipping_email": "guy@gmaillcom",
+        "shipping_phone_no": "(+33)6 55 51 3035",
+        "shipping_address": "5240 Eastern Ave SE",
+        "shipping_country": "United States",
+        "shipping_state": "Michigan",
+        "shipping_city": "Kentwood",
+        "shipping_postal_code": "49508",
+        "is_save_shipping_info_for_next_time": "1",
+        "billing_first_name": "Roberta",
+        "billing_last_name": "Schaefer",
+        "billing_email": "roberta@gmail.com",
+        "billing_phone_no": "(+920) 235-8070",
+        "billing_address": "4266 Wisconsin 21",
+        "billing_country": "United States",
+        "billing_state": "West Virginia",
+        "billing_city": "Oshkosh",
+        "billing_postal_code": "54904",
+        "is_save_billing_info_for_next_time": "0",
+        "payment_method": "paypal",
+        "payment_status": "paid",
+        "vendor_name": "Holiday Shoppee",
+        "item_info": [
+            {
+                "item_id": "10",
+                "item_name": "Latest Cool headphone with Bluetooth version 5.0",
+                "original_price": "$20",
+                "sale_price": "$15",
+                "discount_price": "$10",
+                "quantity": "2",
+                "sub_total": "$30"
+            }
+        ],
+        "total": "$30"
+    }
+}

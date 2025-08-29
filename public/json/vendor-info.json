@@ -1,0 +1,9 @@
+{
+    "vendor_stripe_enabled" : "1",
+    "vendor_stripe_publishable_key" : "123456",
+    "vendor_paypal_enabled" : "1",
+    "vendor_razor_enabled" : "1",
+    "vendor_paystack_enabled" : "1",
+    "vendor_paystack_key" : "123456",
+    "vendor_razor_key" : "123456"
+}

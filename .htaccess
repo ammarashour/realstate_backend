@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+ RewriteEngine On
+ # Redirect non-www to www
+ RewriteCond %{HTTP_HOST} !^www\. [NC]
+ RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
+
+# Allow access to ads.txt
+  RewriteCond %{REQUEST_URI} ^/ads\.txt$
+  RewriteRule ^ - [L]
+
+ # Rewrite to public directory
+ RewriteCond %{REQUEST_URI} !^/public/
+ RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>

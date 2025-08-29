@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;700;900&display=swap');
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #F3F4F6;
+    border-radius: 100px;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #6B7280;
+    border-radius: 100px;
+  }
+
+/*For button*/
+.btn-primary{
+    @apply bg-primary-600 text-textLight dark:bg-primary-500 hover:bg-primary-800 dark:hover:bg-primary-800 focus:bg-primary-700 dark:focus:bg-primary-600 active:bg-primary-800 dark:active:bg-primary-800 disabled:bg-primary-500 disabled:cursor-not-allowed !important;
+}
+.btn-success {
+    @apply bg-green-600 text-white dark:bg-green-600 hover:bg-green-700 dark:hover:bg-green-700 focus:bg-green-700 dark:focus:bg-green-700 active:bg-green-900 dark:active:bg-green-900 disabled:bg-green-400 disabled:cursor-not-allowed !important;
+}
+.btn-error{
+    @apply bg-red-600 text-white dark:bg-red-500 hover:bg-red-700 dark:hover:bg-red-700 focus:bg-red-700 dark:focus:bg-red-700 active:bg-red-800 dark:active:bg-red-800 disabled:bg-red-500 disabled:cursor-not-allowed !important;
+}
+.btn-warning{
+    @apply bg-yellow-500 text-white dark:bg-yellow-500 hover:bg-yellow-600 dark:hover:bg-yellow-600 focus:bg-yellow-600 dark:focus:bg-yellow-600 active:bg-yellow-700 dark:active:bg-yellow-700 disabled:bg-yellow-400 disabled:cursor-not-allowed !important;
+}
+.btn-info{
+    @apply bg-blue-500 text-white hover:bg-blue-600 focus:bg-blue-600 dark:focus:bg-blue-700 active:bg-blue-700 dark:active:bg-blue-800 disabled:bg-blue-400 disabled:cursor-not-allowed !important;
+}
+.btn-light{
+    @apply bg-gray-200 text-gray-700 hover:bg-gray-300 dark:hover:bg-gray-400 focus:bg-gray-400 dark:focus:bg-gray-400  active:bg-gray-400 dark:active:bg-gray-400 disabled:bg-gray-100 disabled:cursor-not-allowed !important;
+}
+.btn-dark {
+    @apply bg-gray-700 text-white dark:bg-gray-600 hover:bg-gray-900 dark:hover:bg-gray-800 focus:bg-gray-900 dark:focus:bg-gray-800 active:bg-gray-900 dark:active:bg-gray-800 disabled:bg-gray-700 disabled:cursor-not-allowed !important;
+}
+
+.btn-sm{
+    @apply px-4 py-1.5 text-xs leading-tight;
+}
+.btn-normal{
+    @apply px-5 py-2.5 text-xs leading-tight;
+}
+.btn-lg{
+    @apply px-7 py-3 text-sm leading-snug;
+}
+
+/*For input*/
+.input-primary{
+    @apply bg-primary-000 text-secondary-500 border-primary-200 dark:bg-primaryDark-black  dark:text-secondaryDark-white dark:border-primary-100 focus:border-primary-200 focus:ring-primary-200 !important;
+}
+
+/* For multiple select */
+.multiple-select .vs__dropdown-menu, .multiple-select .vs__dropdown-toggle{
+    @apply bg-primary-000 text-secondary-500 dark:bg-primaryDark-black dark:text-secondaryDark-white border-primary-200 rounded shadow-sm dark:border-primary-100 focus:border-primary-200 dark:focus:border-primary-300 focus:ring-primary-200 dark:focus:ring-primary-300 mt-1 border focus:outline-none focus:ring-1
+    disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none
+    invalid:border-pink-500 invalid:text-pink-600 px-2
+    focus:invalid:border-pink-500 focus:invalid:ring-pink-500;
+}
+.multiple-select .vs-selected{
+    @apply m-1 bg-blue-200;
+}
+.multiple-select .vs__search::placeholder{
+    @apply text-slate-500;
+}
+.multiple-select .vs__open-indicator, .multiple-select .vs__clear{
+    @apply fill-current border-0;
+}
+/* For checkbox and radio */
+.form-check-input{
+    @apply
+    me-2
+    checked:bg-primary-500 rounded-sm shadow
+    dark:bg-gray-600 dark:checked:bg-primary-500
+    hover:bg-primary-400 hover:ring-1 hover:ring-primary-100
+    dark:hover:bg-primary-300
+    cursor-pointer;
+}
+
+/* For alert */
+.alert-info {
+    @apply bg-blue-300 text-blue-700;
+}
+.alert-success{
+    @apply bg-green-200 text-green-700;
+}
+.alert-error{
+    @apply bg-red-200 text-red-700;
+}
+.alert-warning{
+    @apply bg-yellow-200 text-yellow-700;
+}
+.alert-light{
+    @apply bg-gray-200 text-gray-500;
+}
+.alert-dark{
+    @apply bg-gray-300 text-gray-800;
+}
+
+/* For badge */
+.badge-primary {
+    @apply bg-primary-100 text-primary-600 border border-primary-600;
+}
+.badge-success{
+    @apply bg-green-200 text-green-600 border border-green-600;
+}
+.badge-error{
+    @apply bg-red-200 text-red-600 border border-red-600;
+}
+.badge-warning{
+    @apply bg-yellow-200 text-yellow-600 border border-yellow-600;
+}
+.badge-info{
+    @apply bg-blue-200 text-blue-600 border border-blue-600;
+}
+.badge-light{
+    @apply bg-gray-200 text-gray-700 border border-gray-700;
+}
+.badge-dark{
+    @apply bg-gray-700 text-white border border-slate-200;
+}
+
+@media only screen and (max-width: 834px) {
+    .map-width-height {
+        width: 330px;
+        height: 350px;
+    }
+}
+
+@media only screen and (min-width: 834px) {
+    .map-width-height {
+        width: 400px;
+        height: 500px;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .map-width-height {
+        width: 701px;
+        height: 700px;
+    }
+}
+
+
+/*For vue skeleton*/
+.vue-skeletor {
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.12); }
+    .vue-skeletor:not(.vue-skeletor--shimmerless):after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      transform: translateX(-100%);
+      background-image: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.3), rgba(37, 22, 22, 0));
+      animation: shimmer 1.5s infinite;
+      content: ''; }
+    .vue-skeletor--rect, .vue-skeletor--circle {
+      display: block; }
+    .vue-skeletor--circle {
+      border-radius: 50%; }
+    .vue-skeletor--pill, .vue-skeletor--text {
+      border-radius: 9999px; }
+    .vue-skeletor--text {
+      line-height: 1;
+      display: inline-block;
+      width: 100%;
+      height: inherit;
+      vertical-align: middle;
+      top: -1px; }
+
+  @keyframes shimmer {
+    100% {
+      transform: translateX(100%); } }
+
+      @layer base {
+        h1 {
+          @apply text-2xl;
+        }
+        h2 {
+          @apply text-xl;
+        }
+        h3 {
+          @apply text-lg;
+        }
+        a {
+          @apply text-blue-600 underline;
+        }
+      }

@@ -1,0 +1,82 @@
+{
+    "items" : [
+        {
+            "cart_item_id" : "1",
+            "item_id" : "1",
+            "item_name" : "Latest Cool headphone with Bluetooth version 5.0",
+            "original_price" : "20",
+            "sale_price" : "15",
+            "discount_price" : "10",
+            "vendor_currency_symbol" : "$",
+            "quantity" : "2",
+            "available_quantity" : "3",
+            "sub_total" : "40",
+            "is_sold_out" : "0",
+            "default_photo": {
+                "img_id": "1005",
+                "img_parent_id": "326",
+                "img_type": "item",
+                "img_path": "6557467b3f56d_.png",
+                "img_width": "800",
+                "img_height": "400",
+                "img_desc": "",
+                "ordering": "1",
+                "added_date_str": "2 months ago"
+            }
+        },
+        {
+            "cart_item_id" : "2",
+            "item_id" : "12",
+            "item_name" : "Iphone",
+            "original_price" : "500",
+            "sale_price" : "450",
+            "discount_price" : "100",
+            "vendor_currency_symbol" : "$",
+            "quantity" : "2",
+            "available_quantity" : "11",
+            "sub_total" : "1000",
+            "is_sold_out" : "0",
+            "default_photo": {
+                "img_id": "1005",
+                "img_parent_id": "326",
+                "img_type": "item",
+                "img_path": "6557467b3f56d_.png",
+                "img_width": "800",
+                "img_height": "400",
+                "img_desc": "",
+                "ordering": "1",
+                "added_date_str": "2 months ago"
+            }
+        },
+        {
+            "cart_item_id" : "3",
+            "item_id" : "10",
+            "item_name" : "Polo Shirt",
+            "original_price" : "120",
+            "sale_price" : "100",
+            "discount_price" : "20",
+            "vendor_currency_symbol" : "$",
+            "quantity" : "0",
+            "available_quantity" : "0",
+            "sub_total" : "0",
+            "is_sold_out" : "1",
+            "default_photo": {
+                "img_id": "1005",
+                "img_parent_id": "326",
+                "img_type": "item",
+                "img_path": "6557467b3f56d_.png",
+                "img_width": "800",
+                "img_height": "400",
+                "img_desc": "",
+                "ordering": "1",
+                "added_date_str": "2 months ago"
+            }
+        }
+    ],
+    "vendor_id" : "1",
+    "vendor_currency_symbol" : "$",
+    "sub_total" : "1040",
+    "total_discount" : "110",
+    "delivery_fee" : "10",
+    "total" : "940"
+}

@@ -1,0 +1,93 @@
+{
+    "amount": "79.00",
+    "sold_at": "2021-10-12T21:31:09+11:00",
+    "license": "Regular License",
+    "support_amount": "0.00",
+    "supported_until": null,
+    "item": {
+        "id": 35135814,
+        "name": "BuySell Frontend with Vue.js and PHP Backend (Olx, Mercari, Carousell, Classified ) Full App (1.4)",
+        "number_of_sales": 27,
+        "author_username": "livelyworks",
+        "author_url": "https://codecanyon.net/user/livelyworks",
+        "url": "https://codecanyon.net/item/qa-desk-simple-elegant-manual-test-management-tool/21985515",
+        "updated_at": "2022-10-18T20:40:16+11:00",
+        "attributes": [
+            {
+                "name": "compatible-browsers",
+                "value": [
+                    "IE11",
+                    "Firefox",
+                    "Safari",
+                    "Opera",
+                    "Chrome",
+                    "Edge"
+                ],
+                "label": "Compatible Browsers"
+            },
+            {
+                "name": "compatible-software",
+                "value": [
+                    "PHP 8.x",
+                    "MySQL 8.x",
+                    "MySQL 5.x"
+                ],
+                "label": "Software Version"
+            },
+            {
+                "name": "demo-url",
+                "value": "https://livelyworks.net/demo-preview.php?demo_url=https://qa-desk-demo.livelyworks.net&image_url=https://s3.envato.com/files/247380427/01_main.png",
+                "label": "Demo URL"
+            },
+            {
+                "name": "high-resolution",
+                "value": "Yes",
+                "label": "High Resolution"
+            },
+            {
+                "name": "software-framework",
+                "value": [
+                    "Laravel"
+                ],
+                "label": "Software Framework"
+            },
+            {
+                "name": "source-files-included",
+                "value": [
+                    "JavaScript JS",
+                    "JavaScript JSON",
+                    "HTML",
+                    "CSS",
+                    "PHP"
+                ],
+                "label": "Files Included"
+            },
+            {
+                "name": "video-preview-resolution",
+                "value": null,
+                "label": "Video Preview Resolution"
+            }
+        ],
+        "rating": 5,
+        "previews": {
+            "live_site": {
+                "href": "/item/qa-desk-simple-elegant-manual-test-management-tool/full_screen_preview/21985515",
+                "type": "live_site"
+            },
+            "icon_with_landscape_preview": {
+                "icon_url": "https://s3.envato.com/files/247380423/thumb.png",
+                "landscape_url": "https://s3.envato.com/files/247380424/590-300.jpg",
+                "type": "icon_with_landscape_preview"
+            },
+            "landscape_preview": {
+                "landscape_url": "https://s3.envato.com/files/247380424/590-300.jpg",
+                "type": "landscape_preview"
+            },
+            "icon_preview": {
+                "icon_url": "https://s3.envato.com/files/247380423/thumb.png",
+                "type": "icon_preview"
+            }
+        }
+    },
+    "code": "2a"
+}

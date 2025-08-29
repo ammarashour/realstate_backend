@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <sitemap>
+        <loc>http://127.0.0.1:80/psx-web-core/sitemaps/blog-sitemap.xml</loc>
+            <lastmod>2024-04-25T12:12:00+00:00</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>http://127.0.0.1:80/psx-web-core/sitemaps/item-sitemap.xml</loc>
+            <lastmod>2024-04-25T12:12:00+00:00</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>http://127.0.0.1:80/psx-web-core/sitemaps/category-sitemap.xml</loc>
+            <lastmod>2024-04-25T12:12:00+00:00</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>http://127.0.0.1:80/psx-web-core/sitemaps/subcategory-sitemap.xml</loc>
+            <lastmod>2024-04-25T12:12:00+00:00</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>http://127.0.0.1:80/psx-web-core/sitemaps/vendor-sitemap.xml</loc>
+            <lastmod>2024-04-25T12:12:00+00:00</lastmod>
+    </sitemap>
+</sitemapindex>

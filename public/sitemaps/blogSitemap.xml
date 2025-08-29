@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <sitemap>
+        <loc>http://localhost/psx-web-core/admin/blog</loc>
+            <lastmod>2024-04-03T11:57:14+00:00</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>http://localhost/psx-web-core/blog-detail?blogId=30&amp;blogName=Black%20Friday</loc>
+            <lastmod>2024-04-03T11:57:14+00:00</lastmod>
+    </sitemap>
+    <sitemap>
+        <loc>http://localhost/psx-web-core/blog-detail?blogId=31&amp;blogName=Let%27s%20Groove%20Your%20Style</loc>
+            <lastmod>2024-04-03T11:57:14+00:00</lastmod>
+    </sitemap>
+</sitemapindex>

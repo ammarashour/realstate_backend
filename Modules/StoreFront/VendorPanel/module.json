@@ -1,0 +1,11 @@
+{
+    "name": "VendorPanel",
+    "alias": "vendorpanel",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\temp\\VendorPanel\\Providers\\VendorPanelServiceProvider"
+    ],
+    "files": []
+}

@@ -1,0 +1,3 @@
+[submodule "Modules/Template/PSXFETemplate"]
+ path = Modules/Template/PSXFETemplate
+ url = https://gitlab.com/teamps_web_support/psx-mpc-fe-template.git

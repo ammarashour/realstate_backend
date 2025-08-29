@@ -1,0 +1,24 @@
+<?php
+
+namespace Modules\Core\Database\factories\Location;
+
+use Illuminate\Database\Eloquent\Factories\Factory;
+use Modules\Core\Entities\Location\LocationCity;
+
+class LocationCityFactory extends Factory
+{
+    protected $model = LocationCity::class;
+
+    public function definition()
+    {
+        return [
+            'name' => $this->faker->city,
+            'description' => $this->faker->paragraph,
+            'lat' => $this->faker->latitude(),
+            'lng' => $this->faker->longitude(),
+            'ordering' => 0,
+            'status' => 0,
+            'added_user_id' => 1,
+        ];
+    }
+}

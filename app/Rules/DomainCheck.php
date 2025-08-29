@@ -1,0 +1,3 @@
+<?php
+
+namespace App\Rules; use App\Config\ps_config; use Illuminate\Contracts\Validation\InvokableRule; class DomainCheck implements InvokableRule { public function __invoke($attribute, $value, $fail) { goto or_TT; UxBGK: $findStringIndex = strpos($currentURI, "/install") ? strpos($currentURI, "/install") : strrpos($currentURI, "/admin"); goto t_5Zx; HxNji: $fail(__('domain_checking')); goto Pwo8m; aLxx0: if (!($value !== $domain)) { goto dSaXd; } goto HxNji; t_5Zx: $domain = substr($currentURI, 0, $findStringIndex); goto aLxx0; Pwo8m: dSaXd: goto iXkxq; or_TT: $currentURI = $_SERVER["HTTP_REFERER"]; goto UxBGK; iXkxq: } }

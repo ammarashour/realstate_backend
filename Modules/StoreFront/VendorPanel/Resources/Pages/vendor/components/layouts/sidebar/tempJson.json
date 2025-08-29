@@ -1,0 +1,140 @@
+[
+    {
+        "id": 4,
+        "group_name": "dashboard_group",
+        "group_icon": "chart-line",
+        "group_lang_key": "core__be_dashboard_label",
+        "is_show_on_menu": 1,
+        "ordering": 1,
+        "is_invisible_group_name": 1,
+        "added_date": "2023-01-20T06:28:19.000000Z",
+        "added_user_id": 1,
+        "updated_date": "2023-01-20T06:28:19.000000Z",
+        "updated_user_id": null,
+        "updated_flag": null,
+        "sub_menu_group": [
+            {
+                "id": 16,
+                "sub_menu_name": "dashboard",
+                "sub_menu_desc": "chart-line",
+                "icon_id": "16",
+                "sub_menu_lang_key": "core__be_dashboard_label",
+                "ordering": 1,
+                "is_show_on_menu": 1,
+                "module_id": 70,
+                "core_menu_group_id": 4,
+                "added_date": "2023-01-20T06:32:32.000000Z",
+                "added_user_id": 1,
+                "updated_date": "2023-01-20T06:32:32.000000Z",
+                "updated_user_id": null,
+                "updated_flag": null,
+                "is_dropdown": 0,
+                "module": [],
+                "icon": {
+                    "id": 16,
+                    "icon_name": "chart-line",
+                    "added_date": "2023-01-20 13:01:38",
+                    "added_user_id": null,
+                    "updated_date": null,
+                    "updated_user_id": null,
+                    "updated_flag": null,
+                    "created_at": null,
+                    "updated_at": null
+                },
+                "route_name": {
+                    "id": 70,
+                    "title": "dashboard",
+                    "lang_key": "core__be_dashboard_label",
+                    "added_date": "2023-01-20T06:01:02.000000Z",
+                    "added_user_id": 1,
+                    "updated_date": "2023-01-20T06:32:32.000000Z",
+                    "updated_user_id": null,
+                    "updated_flag": null,
+                    "menu_id": null,
+                    "sub_menu_id": 16,
+                    "is_not_from_sidebar": 0,
+                    "status": 1,
+                    "route_name": "admin.index"
+                }
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "group_name": "Entry",
+        "group_icon": "element",
+        "group_lang_key": "entry_group",
+        "is_show_on_menu": 1,
+        "ordering": 2,
+        "is_invisible_group_name": 0,
+        "added_date": "2022-12-16T02:12:17.000000Z",
+        "added_user_id": 1,
+        "updated_date": "2023-01-20T06:29:05.000000Z",
+        "updated_user_id": 1,
+        "updated_flag": null,
+        "sub_menu_group": [
+            {
+                "id": 2,
+                "sub_menu_name": "items",
+                "sub_menu_desc": "Items",
+                "icon_id": "2",
+                "sub_menu_lang_key": "items_group",
+                "ordering": 2,
+                "is_show_on_menu": 1,
+                "module_id": null,
+                "core_menu_group_id": 1,
+                "added_date": "2022-12-21T02:26:23.000000Z",
+                "added_user_id": 1,
+                "updated_date": null,
+                "updated_user_id": null,
+                "updated_flag": null,
+                "is_dropdown": 1,
+                "module": [
+                    {
+                        "id": 1,
+                        "module_name": "item",
+                        "module_desc": "Items List",
+                        "module_lang_key": "item_module",
+                        "icon_id": null,
+                        "ordering": 1,
+                        "is_show_on_menu": 1,
+                        "module_id": 1,
+                        "core_sub_menu_group_id": 2,
+                        "added_date": "2022-12-21T03:38:59.000000Z",
+                        "added_user_id": 1,
+                        "updated_date": "2022-12-20T21:08:59.000000Z",
+                        "updated_user_id": null,
+                        "updated_flag": null,
+                        "route_name": {
+                            "id": 1,
+                            "title": "item",
+                            "lang_key": "item_module",
+                            "added_date": "2022-12-22T09:38:05.000000Z",
+                            "added_user_id": 1,
+                            "updated_date": "2023-03-08T15:44:06.000000Z",
+                            "updated_user_id": 1,
+                            "updated_flag": null,
+                            "menu_id": 1,
+                            "sub_menu_id": 0,
+                            "is_not_from_sidebar": 0,
+                            "status": 1,
+                            "route_name": "item.index"
+                        }
+                    }
+                ],
+                "icon": {
+                    "id": 2,
+                    "icon_name": "elements",
+                    "added_date": "2022-12-21 01:44:32",
+                    "added_user_id": null,
+                    "updated_date": null,
+                    "updated_user_id": null,
+                    "updated_flag": null,
+                    "created_at": null,
+                    "updated_at": null
+                },
+                "route_name": null
+            }
+        ]
+    }
+]
